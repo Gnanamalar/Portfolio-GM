@@ -49,7 +49,7 @@
 
 import React from 'react'
 import { FaGithub, FaLinkedinIn, FaReact } from "react-icons/fa";
-import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
+import {  SiFigma, SiNodedotjs } from "react-icons/si";
 
 const Media = () => {
   return (
@@ -76,11 +76,11 @@ const Media = () => {
             <FaReact />
           </span>
           <span className="bannerIcon">
-            <SiNextdotjs />
+            <SiNodedotjs />
           </span>
-          <span className="bannerIcon">
-            <SiTailwindcss />
-          </span>
+          {/* <span className="bannerIcon">
+            <Sicss />
+          </span> */}
           <span className="bannerIcon">
             <SiFigma />
           </span>
